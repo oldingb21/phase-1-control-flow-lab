@@ -5,16 +5,16 @@ function scuberGreetingForFeet(feet){
   } else if (feet >= 400 && feet <= 2000 ) {
     message = "That will be twenty bucks.";
   } else if (feet > 2000 && feet <= 2500) {
-    message = "I will gladly take your thirty bucks."
+    message = "I will gladly take your thirty bucks.";
   } else {
     message = "No can do."
   }
-  return message
+  return message;
 }
 
 function ternaryCheckCity(city){
   let message = (city === 'NYC') ? "Ok, sounds good." : "No go.";
-  return message
+  return message;
 }
 
 function switchOnCharmFromTip(tip){
@@ -27,7 +27,7 @@ function switchOnCharmFromTip(tip){
       message = 'Thank you.';
       break;
     default :
-      message = 'Bye.'
+      message = 'Bye.';
   }
-  return message
+  return message;
 }
